@@ -46,7 +46,6 @@ int main(){
     srand(time(0));
     cout << "Количество вершин: ";
     cin >> n;
-    cout << "Вводите значения: " << endl;
     A.Tree(n,&A.root);
     A.print_tree(A.root,0);
     cout << endl << "Количество уровней: " << A.levels(A.root,0) << endl;
